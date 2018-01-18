@@ -1,9 +1,51 @@
-header {
+nav {
     border: 1px solid black;
 }
-    header ul {
+    nav ul {
         list-style-type: none;
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        justify-content: space-around;
     }
-        header li {
-            padding: 5px;
-        }
+
+a .disabled {
+    color: purple;
+}
+    .disabled {
+        color: gray;
+    }
+
+.active {
+    color: yellow;
+}
+
+.am-red {
+    color: red;
+}
+
+.am-blue {
+    color: blue;
+}
+
+.red-sister {
+    background-color: red;
+}
+
+.blue-brother {
+    background-color: blue;
+}
+
+.grandparent > h4 {
+    border: 1px solid black;
+    border-radius: 25px;
+}
+
+.promo {
+    font-weight: bold;
+    color: gold;
+}
+
+span input {
+    font-size: 25px;
+}
